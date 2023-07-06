@@ -19,6 +19,7 @@ function draw() {
     if(mouseX>200){ //to the right of center screen
         fill("red");
         circle(mouseX,mouseY,diameter);
+    
     }else{  //to the left of center screen
         fill("blue");
         circle(mouseX,mouseY,diameter);
