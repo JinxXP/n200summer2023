@@ -15,11 +15,11 @@ const Background = {
 // define ball 
 const Ball = {
 
-    x : 100,
-    y : 400,
+    //x : 100,
+    //y : 400,
     vx : 4,
     vy : 4,
-    x : 400,
+    x : 100,
     y : 300,
     radius : 45,
 };
@@ -31,7 +31,7 @@ function setup(){
 
 function draw(){
 
-    background("Grey");
+    Background("Grey");
 
     if (keyIsDown(39)){ //right arrow key
         Ball.x = Ball.x + Ball.vx;
