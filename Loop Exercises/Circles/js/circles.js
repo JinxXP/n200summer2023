@@ -21,6 +21,5 @@ while(diameter >= 10) {
 
     diameter -=10;
 
-    break;
 }//end while
 }//end function
