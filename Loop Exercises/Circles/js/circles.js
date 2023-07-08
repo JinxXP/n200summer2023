@@ -7,7 +7,7 @@
 
 //create background canvas
 function setup() {
-    createCanvas(800, 600);
+    createCanvas(800, 800);
     background("#00E3E0");
 }//end function
 
