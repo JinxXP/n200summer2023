@@ -6,7 +6,7 @@
 */
 
 //const size of each square
-const pyramid = 25;
+const pyramid = 100;
 
 //create background canvas
 function setup() {
