@@ -13,4 +13,14 @@ function setup() {
 
 function draw() {
 
+var diameter = width;   //initial diameter will be the same as the width of outer circle
+
+//while loop for unknown # of loops
+while(diameter > 10) {
+    circle(width/2, height/2, diameter);    //circle(x, y, d)
+
+    diameter -=10;
+
+    break;
+}//end while
 }//end function
