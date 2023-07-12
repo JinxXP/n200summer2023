@@ -20,6 +20,10 @@ function setup() {
 }//end function
 
 function draw() {
-    
+
+    for(var i=0; i < neapolitan.length; i++) {  //.length will go through each element of the array
+        fill(i);    //fill each rectangle with the current indexed colors
+        rect(60, 40, 100, 100);
+    }
 }
 
