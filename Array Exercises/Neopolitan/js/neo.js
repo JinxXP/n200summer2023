@@ -22,8 +22,13 @@ function setup() {
 function draw() {
 
     for(var i=0; i < neapolitan.length; i++) {  //.length will go through each element of the array
-        fill(neapolitan);    //fill each rectangle with the current indexed colors
-        rect(120, 80, 100, 175);
+        fill(neapolitan[i]);    //fill each rectangle with the current indexed colors
+        rect(100, 80, 100, 175);
+
+        rect(200, 80, 100, 175);
+
+        rect(300, 80, 100, 175);
+
     } //end for
 
 } //end function
