@@ -4,3 +4,13 @@
     Neopolitan
     11 July 2023
 */
+
+//declare colors
+
+let strawberry = "#FF6972";
+let vanilla = "#F9F6A7";
+let chocolate = "#A07200";
+
+//declare array
+let neapolitan = ["strawberry", "vanilla", "chocolate"];
+
