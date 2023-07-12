@@ -14,3 +14,12 @@ let chocolate = "#A07200";
 //declare array
 let neapolitan = ["strawberry", "vanilla", "chocolate"];
 
+function setup() {
+    createCanvas(800,600);
+
+}//end function
+
+function draw() {
+    
+}
+
