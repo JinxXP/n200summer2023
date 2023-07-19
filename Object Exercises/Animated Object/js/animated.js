@@ -6,19 +6,24 @@
 */
 
 //define circle object globally
-let circle;
+//let circle;
 
+circle = {
+    x:  100,
+    y:  100,
+    size: 40
+};//end circle
 //create canvas dimensions and circle properties
 function setup() {
     createCanvas(800, 600);
     background("grey");
-
+/*
     circle = {
         x:  100,
         y:  100,
         size: 40
     };//end circle
-
+*/
 }//end function
 
 function draw() {
