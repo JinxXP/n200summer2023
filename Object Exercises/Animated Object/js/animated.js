@@ -12,7 +12,7 @@ let circle;
 function setup() {
     createCanvas(800, 600);
     background("grey");
-    
+
     circle = {
         x:  100,
         y:  100,
@@ -22,7 +22,14 @@ function setup() {
 }//end function
 
 function draw() {
+//properties of circle are updated 
+    circle.x += 1,
+    circle.y += 1,
+    circle.size += 0.5,
 
-
+//circle is drawn here
+    circle(circle.x, circle.y, circle.size, circle.size);
 
 }//end function
+
+//instantiation
