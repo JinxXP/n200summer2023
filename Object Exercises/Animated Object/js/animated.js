@@ -11,7 +11,8 @@ let circle;
 //create canvas dimensions and circle properties
 function setup() {
     createCanvas(800, 600);
-
+    background("grey");
+    
     circle = {
         x:  100,
         y:  100,
