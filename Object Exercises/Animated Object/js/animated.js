@@ -23,9 +23,9 @@ function setup() {
 
 function draw() {
 //properties of circle are updated 
-    circle.x += 1,
-    circle.y += 1,
-    circle.size += 0.5,
+    circle.x += 1;
+    circle.y += 1;
+    circle.size += 0.5;
 
 //circle is drawn here
     circle(circle.x, circle.y, circle.size, circle.size);
@@ -33,4 +33,4 @@ function draw() {
 }//end function
 
 //instantiation
-new p5(circle);
+let thisp5 = new p5(circle);
