@@ -33,3 +33,4 @@ function draw() {
 }//end function
 
 //instantiation
+new p5(circle);
