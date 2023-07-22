@@ -4,7 +4,9 @@
     Midterm Exam
     22 July 2023
 */
-
+//player coords
+let x = 400;
+let y = 550;
 //enemy coords will vary as there's going to be several enemies on screen
 let enemy = ["enemy1", "enemy2", "enemy3", "enemy4"];
 //let enemyColor = "red";
@@ -26,9 +28,17 @@ function draw() {
     } //end for
 
 //create player
-player = circle(400, 550, 40);
-
+player = circle(x, y, 40);
 fill("blue");
+
+//player movement
+function keyPressed() {
+    if (keyCode === 37) {
+        player.x = 
+    }
+}
+
+
 
 }//end function 
 
