@@ -25,7 +25,7 @@ function draw() {
     } //end for
 
 //player coords
-let x = 400;
+let x = 500;
 let y = 550;
 //create player
 player = circle(x, y, 40);
