@@ -4,3 +4,8 @@
     Midterm Exam
     22 July 2023
 */
+
+//create canvas dimensions
+function setup() 
+    createCanvas(800, 800);
+
