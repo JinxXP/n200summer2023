@@ -16,5 +16,7 @@ function calculate() {
 //adding tip to subtotal amount
     let total = parseInt(userInput) + parseInt(tip);
 
+//display total amount to console in "Tip: $X. Total: $X" 
+console.log("Tip: $" +tip +"Total: $" +total);
 
-}
+}//end function
