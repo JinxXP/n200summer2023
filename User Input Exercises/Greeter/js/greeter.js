@@ -8,7 +8,7 @@
 //function that works off the form button
 function greetUser() {
 //what the user inputs
-    let userInput=document.getElementById("response").appendChild(userInput);
+    let userInput=document.getElementById("response").value;    //appendChild(userInput);
 
 //display message to the console
 console.log("Hi " + userInput);
