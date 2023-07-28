@@ -24,4 +24,10 @@ function draw() {
     circle(400, 300, 50);
 }//end function
 
+function onMouseClick() {
+    let d = dist(mouseX, mouseY, 400, 300);
 
+    if (d < 100) {
+        colorArray;
+    }//end if
+}//end function
