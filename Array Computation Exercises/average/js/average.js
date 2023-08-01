@@ -5,3 +5,10 @@
     1 August 2023
 */
 
+const arrayInt = [] 
+
+function average() {
+    let x = document.getElementById("input").value;
+
+
+}
