@@ -4,3 +4,4 @@
     bad word catcher with loops
     1 August 2023
 */
+
