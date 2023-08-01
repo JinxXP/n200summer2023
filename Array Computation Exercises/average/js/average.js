@@ -7,8 +7,8 @@
 
 let input = prompt("Please type a list of numbers separated by commas: ");
 
-
-const arrayInt = [] 
+let sum = 0;    //initial value before adding array
+const arrayInt = [];
 
 /** 
 function average() {
