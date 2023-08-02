@@ -26,7 +26,7 @@ function checkWords() {
                 wordCount++;
             }//end if
         }//end for j
-    }end for i
+    }//end for i
 
     //if no bad words are found
     if (wordCount == 0) {
