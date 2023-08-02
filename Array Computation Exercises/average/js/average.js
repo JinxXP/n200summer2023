@@ -24,6 +24,7 @@ function average() {
 
     //prints average and sum to page
     document.getElementById("output").innerHTML = "The average is : " + getAverage;
-
     document.getElementById("output").innerHTML = "The sum is : " + sum;
+    //resets text field
+    document.getElementById("input").value  = "";
 }
