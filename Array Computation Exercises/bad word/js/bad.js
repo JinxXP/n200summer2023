@@ -22,7 +22,7 @@ function checkWords() {
     //nested loop to check if words are good or bad by looping array
     for (let i = 0; i < badWord.length; i++) {
         for (let j = 0; j < goodWord.length; j++) {
-            if (goodWord == badWord) {
+            if (goodWord[j] == badWord[i]) {
                 wordCount++;
             }//end if
         }//end for j
