@@ -15,6 +15,15 @@ function average() {
     //removes spaces from string
     let array = text.split(" ");
 
+    for(let i = 0; i < array.length; i++) {
+        arrayInt[i] == parseInt(array[i])
+        sum = sum + arrayInt[i]  
+    }//end for
 
+    let getAverage = sum / arrayInt.length;
 
+    //prints average and sum to page
+    document.getElementById("output").innerHTML = "The average is : " + getAverage;
+
+    document.getElementById("output").innerHTML = "The sum is : " + sum;
 }
