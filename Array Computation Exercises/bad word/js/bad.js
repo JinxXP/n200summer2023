@@ -38,7 +38,7 @@ function checkWords() {
         }//end else
 
     //resets text field
-
+    document.getElementById("input").value  = "";
 
 
 }//end function
