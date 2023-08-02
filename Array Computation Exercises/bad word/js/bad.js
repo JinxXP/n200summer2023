@@ -12,8 +12,8 @@ let wordCount;
 
 function checkWords() {
     wordCount = 0;
-    let x = "";     //text field initially empty
-    x = document.getElementById("input").value;
+    let text = "";     //text field initially empty
+    text = document.getElementById("input").value;
 
     let goodWord = [];
     //removes blank spaces between words
