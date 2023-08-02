@@ -8,7 +8,7 @@
 
 
 let sum = 0;    //initial value before adding array
-const arrayInt = [];
+let arrayInt = [];
 
 function average() {
     let text = document.getElementById("input").value;
