@@ -5,16 +5,16 @@
     1 August 2023
 */
 
-let input = prompt("Please type a list of numbers separated by commas: ");
+
 
 let sum = 0;    //initial value before adding array
 const arrayInt = [];
 
-/** 
 function average() {
-    let x = document.getElementById("input").value;
+    let text = document.getElementById("input").value;
+    //removes spaces from string
+    let array = text.split(" ");
+
 
 
 }
-
-**/
